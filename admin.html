@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>hello</title>
+</head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Admin</title>
+<body>
+		<a href="home.jsp">Home page</a><br>
+		<a href="profile.jsp">Profile page</a>
+		
+		<br>
+		
+		<h4>Make new admin or salesperson</h4>
+		<form action="admin.jsp" method="post">
+		<textarea placeholder="Make a user an admin" rows ="1" cols="20" name="adminName"/></textarea><br>
+		<textarea placeholder="Make a user a salesperson" rows ="1" cols="20" name="salesName"></textarea><br>
+		<input type="submit" value="Add It!"/><br>			
+		
+		<h4>Make new topic</h4>
+		<input placeholder="Title of topic" type="text" name="topicTitle"/><br>
+		<input placeholder="Tags" type="text" name="topicTags"/><br>
+		<input type="submit" value="Create It!"/><br>		
+		
+		<h4>Edit topic</h4>
+		<input placeholder="Title of topic" type="text" name="oldTopicTitle"/><br>
+		<input placeholder="New title of topic" type="text" name="newTopicTitle"/><br>
+		<input type="submit" value="Edit It!"/><br>				
+		
+		<h4>Move thread between topics</h4>
+		<input placeholder="Enter thread ID" type="text" name="threadID"/><br>
+		<input placeholder="Enter new topic ID" type="text" name="newTopicID"/><br>
+		<input type="submit" value="Move It!"/><br>
+		
+		<br>
+
+		</form>
+		
+</body>
+</html>
